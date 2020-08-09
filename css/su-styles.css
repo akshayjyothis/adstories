@@ -16,7 +16,7 @@
     font-family: 'Axiforma';
     src: url(../fonts/Axiforma\ Bold\ Italic.otf);
     font-style: italic;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 @font-face{
@@ -51,23 +51,6 @@ body{
     align-items: center;
     color: white;
 }
-h5{
-    font-family: Axiforma;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1em;
-    text-align: center;
-    color: white;
-}
-h4{
-    font-family: Axiforma;
-    font-style: normal;
-    font-weight: 200;
-    font-size: 1em;
-    text-align: center;
-    color: white;
-}
-
 
 header div{
     border-bottom-right-radius: 27px;
@@ -88,50 +71,50 @@ header div{
 
 }
 
-header{
-
-    justify-content: center;
-    align-items: center;
-}
-
-.btn{
-    text-align: center;
-    border: 0;
-    border-radius: 5px;
-    background-color:#FAFAFA;
-    padding: 14px 28px;
-    font-size: 11px;
-    cursor: pointer;
-    box-shadow: 3px 5px 6px rgba(149,149,149,0.4);
+div h1{
     font-family: Axiforma;
-    margin: 10px;
-
-}
-.button{
-    margin-top: 10%;
+    font-weight: 200;
+    font-size: 30px;
 }
 
-
-.claim{
-    margin-bottom: 30%;
-    background: rgb(239,80,81);
-    background: linear-gradient(138deg, rgba(239,80,81,1) 0%, rgba(224,45,116,1) 60%, rgba(156,107,170,1) 100%);
-}
-
-.footer{
-    /* padding-top: 50px; */
+div h2{
+    font-family: Axiforma;
+    font-weight: 600;
+    font-size: 18px;
+    color: white
 }
 
 .footer img{
     width: 120px;
     height: auto;  
-    /* padding-top: 400px;   */
-}
-p{
-    color:black;
-    font-family: Axiforma;
-    font-size: 10px;
 
+}
+div p{
+    color:grey;
+    font-family: Axiforma;
+    font-size: 15px;
+      
+}
+
+.btn{
+    text-align: center;
+    border-radius: 5px;
+    background-color:#FAFAFA;
+    padding-top: 14px;
+    font-size: 11px;
+    cursor: pointer;
+    box-shadow: 3px 5px 6px rgba(149,149,149,0.4);
+    font-family: Axiforma;
+    font-weight: 600;
+    margin: 10px;
+    width: 20%;
+
+}
+
+.home{
+    margin-bottom: 40%;
+    background: rgb(239,80,81);
+    background: linear-gradient(138deg, rgba(239,80,81,1) 0%, rgba(224,45,116,1) 60%, rgba(156,107,170,1) 100%);
 }
 
 @media screen and (max-width:1000px){
@@ -143,10 +126,11 @@ p{
     }
 
     .section{
-        padding-top: 40%;
+        padding-top: 30%;
     }
     .btn{
-        width: 100%;
+        width: 50%;
+        
     }
     .button{
         padding-left: 15%;
@@ -156,7 +140,7 @@ p{
     .footer img{  
         width: 100px;
         height: auto;
-        /* padding-top: 50%;   */
+        padding-top: 50%;  
     }
 
     p{
@@ -167,6 +151,5 @@ p{
     }
     
     
-
 
 }

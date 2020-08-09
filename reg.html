@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdStories</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/styles-reg.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/black inst logo .png" alt="">
+        </div>
+    </header>
+    
+    <div class="section"> 
+        <form id="submit-form"  action="">
+            <h2 for="fname">Name</h2>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.">
+            <br>  
+            <br>  
+            <h2 for="status">Status</h2>
+            <select id="status" name="status">
+              <option value="Working">Working</option>
+              <option value="Student">Student</option>
+            </select>
+            <br>  
+            <br> 
+            <h2 for="Permanent Location">Permanent Location</h2>
+            <select id="Permanent Location" name="Permanent Location">
+              <option value="" disabled selected hidden>Choose District</option>
+              <option value="Kannur">Kannur</option>
+              <option value="Kasargode">Kasargode</option>
+              <option value="Wayanad">Wayanad</option>
+              <option value="Kozhikode">Kozhikode</option>
+              <option value="Malappuram">Malappuram</option>
+              <option value="Palakkad">Palakkad</option>
+              <option value="Thrissur">Thrissur</option>
+              <option value="Ernankulam">Ernankulam</option>
+              <option value="Kottayam">Kottayam</option>
+              <option value="Alappuzha">Alappuzha</option>
+              <option value="Kollam">Kollam</option>
+              <option value="Pathanamthitta">Pathanamthitta</option>
+              <option value="Trivandrum">Trivandrum</option>
+            </select>
+            <br>  
+            <br> 
+            <h2 for="Work/Study Location">Work/Study Location</h2>
+            <select id="Work/Study Location" name="Work/Study Location">
+                <option value="" disabled selected hidden>Choose District</option>
+                <option value="Kannur">Kannur</option>
+                <option value="Kasargode">Kasargode</option>
+                <option value="Wayanad">Wayanad</option>
+                <option value="Kozhikode">Kozhikode</option>
+                <option value="Malappuram">Malappuram</option>
+                <option value="Palakkad">Palakkad</option>
+                <option value="Thrissur">Thrissur</option>
+                <option value="Ernankulam">Ernankulam</option>
+                <option value="Kottayam">Kottayam</option>
+                <option value="Alappuzha">Alappuzha</option>
+                <option value="Kollam">Kollam</option>
+                <option value="Pathanamthitta">Pathanamthitta</option>
+                <option value="Trivandrum">Trivandrum</option>
+            </select>
+            <br>  
+            <br>
+            <h2 for="Age">Age group</h2>
+            <select id="Age" name="Age">
+              <option value="" disabled selected hidden>Choose Age Group</option>
+              <option value="13-18">13-18</option>
+              <option value="19-24">19-24</option>
+              <option value="25-30">25-30</option>
+              <option value="30-35">30-35</option>
+              <option value="35+">35+</option>
+            </select>
+            <br>  
+            <br>
+            <h2 for="Whatsapp Number">Whatsapp number</h2>
+            <input type="text" id="Whatsapp Number" name="Whatsapp Number" placeholder="Whatsapp number">
+
+
+    <div class="button">
+        <button class="btn claim"  ><h5>Register</h5></button>
+    </div>
+        
+        <div class="footer">
+            <img src="images/black inst logo .png" alt="">
+        </div>
+        <p>join us and earn through your status and stories</p>
+    </div>
+<script>
+ $("#submit-form").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"https://script.google.com/macros/s/AKfycbyIaImQ5DsTbu3NHyBzxGH0e-wJK-T0vNAm3xeumyJxJtwQfUU/exec",
+                data:$("#submit-form").serialize(),
+                method:"post",
+                success:function (response){
+                    //alert("Form submitted successfully")
+                    //window.location.reload()
+                    window.location.href="success.html"
+                },
+                error:function (err){
+                    alert("Something Error")
+    
+                }
+            })
+        })
+</script>
+
+</body>
+</html>
