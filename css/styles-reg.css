@@ -78,9 +78,9 @@ h1{
 
 
 header div{
-    border-bottom-right-radius: 27px;
-    border-bottom-left-radius: 27px;
-    box-shadow: 0px 3px 6px #959595;
+    /* border-bottom-right-radius: 27px;
+    border-bottom-left-radius: 27px; */
+    box-shadow: 0px 3px 6px rgba(149, 149, 149, 0.1);
 }
 
 input[type=text], select {
@@ -109,6 +109,8 @@ input[type=text], select {
   }
   
 .logo img{
+    padding-top: 1%;
+    padding-bottom: 1%;
     width: 100%;
     padding-left: 40%;
     padding-right: 40%;
@@ -146,21 +148,13 @@ header{
 
 
 .claim{
-<<<<<<< HEAD
     margin-bottom: 0%;
-=======
-    margin-bottom: 30%;
->>>>>>> a86dabfd2bdd48e6d1d21e7a8f45d301d4b88189
     background: rgb(239,80,81);
     background: linear-gradient(138deg, rgba(239,80,81,1) 0%, rgba(224,45,116,1) 60%, rgba(156,107,170,1) 100%);
 }
 
 .footer{
-<<<<<<< HEAD
     padding-top: 50px;
-=======
-    /* padding-top: 50px; */
->>>>>>> a86dabfd2bdd48e6d1d21e7a8f45d301d4b88189
 }
 
 .footer img{
@@ -184,18 +178,11 @@ p{
     }
 
     .section{
-<<<<<<< HEAD
-        padding-top: 10%;
+        padding-top: 5%;
     }
     .btn{
         width: 60%;
         
-=======
-        padding-top: 40%;
-    }
-    .btn{
-        width: 100%;
->>>>>>> a86dabfd2bdd48e6d1d21e7a8f45d301d4b88189
     }
     .button{
         padding-left: 15%;
@@ -212,11 +199,7 @@ p{
         font-size: 6px;
     }
     .claim{
-<<<<<<< HEAD
         margin-bottom: 5%;
-=======
-        margin-bottom: 90%;
->>>>>>> a86dabfd2bdd48e6d1d21e7a8f45d301d4b88189
     }
     
     

@@ -70,12 +70,14 @@ h4{
 
 
 header div{
-    border-bottom-right-radius: 27px;
-    border-bottom-left-radius: 27px;
-    box-shadow: 0px 3px 6px #959595;
+    /* border-bottom-right-radius: 27px;
+    border-bottom-left-radius: 27px; */
+    box-shadow: 0px 3px 6px rgba(149, 149, 149, 0.1);
 }
 
 .logo img{
+    padding-top: 1%;
+    padding-bottom: 1%;
     width: 100%;
     padding-left: 40%;
     padding-right: 40%;

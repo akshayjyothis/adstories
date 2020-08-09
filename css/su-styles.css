@@ -53,12 +53,14 @@ body{
 }
 
 header div{
-    border-bottom-right-radius: 27px;
-    border-bottom-left-radius: 27px;
-    box-shadow: 0px 3px 6px #959595;
+    /* border-bottom-right-radius: 27px;
+    border-bottom-left-radius: 27px; */
+    box-shadow: 0px 3px 6px rgba(149, 149, 149, 0.1);
 }
 
 .logo img{
+    padding-top: 1%;
+    padding-bottom: 1%;
     width: 100%;
     padding-left: 40%;
     padding-right: 40%;
@@ -81,7 +83,9 @@ div h2{
     font-family: Axiforma;
     font-weight: 600;
     font-size: 18px;
-    color: white
+    color: white;
+    margin: 0;
+    padding: 4px;
 }
 
 .footer img{
@@ -89,11 +93,15 @@ div h2{
     height: auto;  
 
 }
-div p{
-    color:grey;
-    font-family: Axiforma;
+.soon{
+    color: gray;
     font-size: 15px;
-      
+}
+
+p{
+    color:black;
+    font-family: Axiforma;
+    font-size: 6px;     
 }
 
 .btn{
@@ -112,7 +120,7 @@ div p{
 }
 
 .home{
-    margin-bottom: 40%;
+    margin-bottom: 22%;
     background: rgb(239,80,81);
     background: linear-gradient(138deg, rgba(239,80,81,1) 0%, rgba(224,45,116,1) 60%, rgba(156,107,170,1) 100%);
 }
@@ -130,8 +138,19 @@ div p{
     }
     .btn{
         width: 50%;
-        
+        text-align: center;    
     }
+
+    div h1{
+        font-size: 21px;
+    }
+
+    div h2{
+        margin: 0;
+        padding: 5px;
+        font-size: 14px;
+    }
+
     .button{
         padding-left: 15%;
         padding-right: 15%;
@@ -143,11 +162,23 @@ div p{
         padding-top: 50%;  
     }
 
-    p{
+    .soon{
+        font-size: 13px;
+    }
+    .msg{
+        font-size: 10px;
+        padding-top: 15px;
+    }
+
+    .wait{
+        font-size: 17px;
+    }
+
+    div p {
         font-size: 6px;
     }
-    .claim{
-        margin-bottom: 90%;
+    .home{
+        margin-bottom: 30%;
     }
     
     
