@@ -1,0 +1,162 @@
+@font-face{
+    font-family: 'Axiforma';
+    src: url(../fonts/Axiforma\ Light.otf);
+    font-style: normal;
+    font-weight: 200;
+}
+
+@font-face{
+    font-family: 'Axiforma';
+    src: url(../fonts/Axiforma\ Light\ Italic.otf);
+    font-style: italic;
+    font-weight: 200;
+}
+
+@font-face{
+    font-family: 'Axiforma';
+    src: url(../fonts/Axiforma\ Bold\ Italic.otf);
+    font-style: italic;
+    font-weight: 600;
+}
+
+@font-face{
+    font-family: 'Axiforma';
+    src: url(../fonts/Axiforma\ Thin.otf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face{
+    font-family: 'Axiforma';
+    src: url(../fonts/Axiforma\ Bold.otf);
+    font-style: normal;
+    font-weight: 600;
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    background-color: #101622;
+    background-image: url("../images/bg.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    align-items: center;
+    color: white;
+}
+
+div {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.section{
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+h5{
+    font-family: Axiforma;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+
+.logo{
+    /* margin: 15%; */
+    text-align: center;
+}
+
+.logo img{
+    align-items: center;
+    width: 30%;
+}
+
+button{
+    
+    font-family: Axiforma;
+    font-style: italic;
+    font-size: 200;
+    color: white;
+}
+
+.button{
+    text-align: center;
+}
+
+
+.btn{
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color:transparent;
+    color:white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    }
+
+div .btn-outline{
+    border-color: white;
+    line-height: 1;
+    width: auto;
+    font-size: 10px;
+}
+
+#getstarted{
+    border: 0;
+    width: 20%;
+    font-family: Axiforma;
+    font-weight: 600;
+    background: rgb(239,80,81);
+    background: linear-gradient(138deg, rgba(239,80,81,1) 0%, rgba(224,45,116,1) 60%, rgba(156,107,170,1) 100%);
+}
+
+@media screen and (max-width:1000px){
+
+    div {
+        margin: 10%;
+        margin-top: 25%;
+        margin-bottom: 25%;
+    }
+
+    .logo{
+        margin: 15%;
+    }
+
+    .logo img{
+        align-items: center;
+        width: 100%;
+    }
+
+    h5{
+        font-family: Axiforma;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 0.8em;
+        text-align: center;
+        color: white;
+    }
+
+    div .btn-outline{
+        border-color: white;
+        line-height: 0;
+        width: auto;
+        font-size: 10px;
+    }
+
+    #getstarted{
+        width: 80%;
+    }
+    
+
+}
