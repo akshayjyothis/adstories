@@ -27,7 +27,7 @@
 
         $("#submit-form").submit((e)=>{   
             var name = $("#fname").val();
-            var status = $("#status");
+            var status = $("#status option:selected").text();
             var error = $("#error-message");
             var plocation = $("#permanent-location option:selected").text();
             var wlocation = $("#work-location option:selected").text();
@@ -38,6 +38,13 @@
             if(name.length == 0){
                 $("#error-message").css("padding", "13px");
                 text = "Please enter your name";
+                error.html(text);
+                validate = false;
+                return validate;
+            }
+            else if(status == "Status"){
+                $("#error-message").css("padding", "13px");
+                text = "Choose your status";
                 error.html(text);
                 validate = false;
                 return validate;
@@ -70,12 +77,17 @@
                 validate = false;
                 return validate;
             }
-            else if( num.length == 0){
+            else if( num.length != 10){
                 $("#error-message").css("padding", "13px");
-                text = "Please enter your number";
+                text = "Please enter a valid number";
                 error.html(text);
                 validate = false;
                 return validate;
+            }
+            else{
+                $(".animation-container").addClass("loader-container");
+                $(".animation").addClass("loader");
+
             }
 
             
