@@ -33,6 +33,7 @@
             var wlocation = $("#work-location option:selected").text();
             var agegroup = $("#age option:selected").text();
             var num= $("#number").val();
+            console.log($.isNumeric(num));
             var text;
             
             if(name.length == 0){
@@ -77,11 +78,7 @@
                 validate = false;
                 return validate;
             }
-<<<<<<< HEAD
-            else if( num.length != 10){
-=======
-            else if( num.length != 0){
->>>>>>> f8380d502a937bacf5453eb6214095ebd3fe9925
+            else if( (num.length != 10) || (!$.isNumeric(num)) ){
                 $("#error-message").css("padding", "13px");
                 text = "Please enter a valid number";
                 error.html(text);

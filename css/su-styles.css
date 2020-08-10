@@ -43,7 +43,7 @@
 
 body{
     text-align: center;
-    background-color: #FBFBFB;
+    background-color: #f3f3f3;
     /* background-image: url(../images/bg2\ \(1\).jpg);
     background-size: 100%;    
     background-repeat: no-repeat; */
@@ -93,6 +93,12 @@ div h2{
     height: auto;  
 
 }
+.footer-img img{
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+}
+
 .soon{
     color: gray;
     font-size: 15px;
