@@ -70,7 +70,7 @@
                 validate = false;
                 return validate;
             }
-            else if( num.length == 0){
+            else if( num.length != 0){
                 $("#error-message").css("padding", "13px");
                 text = "Please enter your number";
                 error.html(text);
