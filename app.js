@@ -77,7 +77,11 @@
                 validate = false;
                 return validate;
             }
+<<<<<<< HEAD
             else if( num.length != 10){
+=======
+            else if( num.length != 0){
+>>>>>>> f8380d502a937bacf5453eb6214095ebd3fe9925
                 $("#error-message").css("padding", "13px");
                 text = "Please enter a valid number";
                 error.html(text);
