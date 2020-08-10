@@ -166,8 +166,38 @@ p{
     color:black;
     font-family: Axiforma;
     font-size: 10px;
-
 }
+
+select{
+    position: relative;
+    color: gray;
+    font-family: Axiforma;
+}
+
+.select-items div,.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+  }
+
+::placeholder{
+    font-family: Axiforma;
+}
+
+.error{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding: 0px;
+    border-radius: 10px;
+    background: #FE8B8E;
+    text-emphasis: center;
+    font-family: Axiforma;
+    font-size: 14px;
+    transition: all 0.5 ease;
+}
+
 
 @media screen and (max-width:1000px){
 
