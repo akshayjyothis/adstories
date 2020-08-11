@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdStories</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/styles-regu.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="images/black inst logo .png" alt=""></a>
+        </div>
+    </header>
+    
+    <div class="section"> 
+        <form id="submit-form"  action="" >
+            <h2 for="fname">Name</h2>
+            <input type="text" id="fname" name="firstname" placeholder="Your name" autocomplete="off"> 
+            <br>  
+            <br>  
+            <h2 for="status">Status</h2>
+            <div class="custom-select">
+                <select id="status" name="status">
+                <option value="status" disabled selected hidden>Status</option>
+                <option value="Working">Working</option>
+                <option value="Student">Student</option>
+                </select>
+            </div>
+            <br>  
+            <br> 
+            <h2 for="Permanent Location">Permanent Location</h2>
+            <div class="custom-select"> 
+                <select id="permanent-location" name="Permanent Location">
+                <option value="" disabled selected hidden>Choose District</option>
+                <option value="Kannur">Kannur</option>
+                <option value="Kasargode">Kasargode</option>
+                <option value="Wayanad">Wayanad</option>
+                <option value="Kozhikode">Kozhikode</option>
+                <option value="Malappuram">Malappuram</option>
+                <option value="Palakkad">Palakkad</option>
+                <option value="Thrissur">Thrissur</option>
+                <option value="Ernankulam">Ernankulam</option>
+                <option value="Kottayam">Kottayam</option>
+                <option value="Alappuzha">Alappuzha</option>
+                <option value="Kollam">Kollam</option>
+                <option value="Pathanamthitta">Pathanamthitta</option>
+                <option value="Trivandrum">Trivandrum</option>
+                </select>
+            </div>
+            <br>  
+            <br> 
+            <h2 for="Work/Study Location">Work/Study Location</h2>
+            <div class="custom-select">
+                <select id="work-location" name="Work/Study Location">
+                    <option value="" disabled selected hidden>Choose District</option>
+                    <option value="Kannur">Kannur</option>
+                    <option value="Kasargode">Kasargode</option>
+                    <option value="Wayanad">Wayanad</option>
+                    <option value="Kozhikode">Kozhikode</option>
+                    <option value="Malappuram">Malappuram</option>
+                    <option value="Palakkad">Palakkad</option>
+                    <option value="Thrissur">Thrissur</option>
+                    <option value="Ernankulam">Ernankulam</option>
+                    <option value="Kottayam">Kottayam</option>
+                    <option value="Alappuzha">Alappuzha</option>
+                    <option value="Kollam">Kollam</option>
+                    <option value="Pathanamthitta">Pathanamthitta</option>
+                    <option value="Trivandrum">Trivandrum</option>
+                </select>
+            </div>
+            <br>  
+            <br>
+            <h2 for="Age">Age group</h2>
+            <div class="custom-select">
+                <select id="age" name="Age">
+                <option value="" disabled selected hidden>Choose Age Group</option>
+                <option value="13-18">13-18</option>
+                <option value="19-24">19-24</option>
+                <option value="25-30">25-30</option>
+                <option value="30-35">30-35</option>
+                <option value="35+">35+</option>
+                </select>
+            </div>
+            <br>  
+            <br>
+            <h2 for="Whatsapp Number">Whatsapp number</h2>
+            <input type="text" id="number" name="Whatsapp Number" placeholder="Whatsapp number" autocomplete="off">
+            <div class="error" id="error-message">
+        
+            </div>
+            <br>  
+            <br>
+            <h2 for="img">Select image:</h2>
+            <input class="dropzone" type="file" id="img" name="img" accept="image/*"> 
+
+            <h2 for="img">Image URL</h2>
+            <input type="text" id="url" name="url" placeholder="Upload " autocomplete="off"> 
+            
+           
+
+    <div class="button">
+        <button class="btn claim"  ><h5>Register</h5></button>
+    </div>
+    </form>
+    <div class="animation-container ">
+        <div class="animation "></div>
+        <p></p>
+    </div> 
+        
+        <div class="footer">
+            <img src="images/black inst logo .png" alt="">
+        </div>
+        <p>join us and earn through your status and stories</p>
+        <div class="footer-img">
+            <img src="images/ads.jpg" alt="">
+        </div>
+
+    </div>
+    <script type="text/javascript" src="imgur.js"></script>
+    <script type="text/javascript" src="upload.js"></script>
+    <script src="app.js"></script>   
+<script>
+//  $("#submit-form").submit((e)=>{
+//             e.preventDefault()
+//             $.ajax({
+//                 url:"https://script.google.com/macros/s/AKfycbyIaImQ5DsTbu3NHyBzxGH0e-wJK-T0vNAm3xeumyJxJtwQfUU/exec",
+//                 data:$("#submit-form").serialize(),
+//                 method:"post",
+//                 success:function (response){
+//                     //alert("Form submitted successfully")
+//                     //window.location.reload()
+//                     window.location.href="success.html"
+//                 },
+//                 error:function (err){
+//                     alert("Something Error")
+    
+//                 }
+//             })
+//         })
+// $("#submit-form").submit((e)=>{
+//             e.preventDefault();
+//             function validation(){
+//                 var name = $("fname").value;
+//                 var status = $("status");
+//                 var error = $("error-message");
+//                 error.style.padding = "25px";
+//                 var text;
+//                 alert("false");
+
+//                 if(name.length == 0){
+//                     text = "Please enter your name";
+//                     error.innerHTML = text;
+//                     return false;
+//                 }
+//                 alert("false");
+//                 return false;
+
+//             }
+//             validation();
+//             if(validation){
+//                 $.ajax({
+//                     url:"https://script.google.com/macros/s/AKfycbyIaImQ5DsTbu3NHyBzxGH0e-wJK-T0vNAm3xeumyJxJtwQfUU/exec",
+//                     data:$("#submit-form").serialize(),
+//                     method:"post",
+//                     success:function (response){
+//                         //alert("Form submitted successfully")
+//                         //window.location.reload()
+//                         window.location.href="success.html"
+//                     },
+//                     error:function (err){
+//                         alert("Something Error")
+        
+//                     }
+//                 })
+//             }
+//         })
+</script> 
+
+</body>
+</html>
