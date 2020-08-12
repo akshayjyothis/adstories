@@ -77,6 +77,8 @@ h1{
 }
 
 
+
+
 header div{
     /* border-bottom-right-radius: 27px;
     border-bottom-left-radius: 27px; */
@@ -92,6 +94,22 @@ input[type=text], select {
     border-radius: 10px;
     box-sizing: border-box;
   }
+
+label{
+    font-family: Axiforma;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    text-align: left;
+    background-color: white;
+    color: grey;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
   
   input[type=submit] {
     width: 100%;
@@ -210,6 +228,10 @@ input[type="text"]{
     transition: all 0.5 ease;
 }
 
+input[type="file"]{
+    display: none;
+}
+
 
 
 
@@ -255,6 +277,10 @@ OPEN imgur CSS
     margin: 0%;
     text-align: center;
     width: 100%
+}
+
+#wait{
+    padding-top: 4%;
 }
 
 .input {
@@ -304,6 +330,10 @@ OPEN imgur CSS
 
 .img {
     width: 100%;
+}
+
+.url{
+    display: none;
 }
 
 /*

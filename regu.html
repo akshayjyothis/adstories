@@ -34,18 +34,18 @@
             <div class="custom-select"> 
                 <select id="permanent-location" name="Permanent Location">
                 <option value="" disabled selected hidden>Choose District</option>
-                <option value="Kannur">Kannur</option>
                 <option value="Kasargode">Kasargode</option>
-                <option value="Wayanad">Wayanad</option>
+                <option value="Kannur">Kannur</option>
                 <option value="Kozhikode">Kozhikode</option>
+                <option value="Wayanad">Wayanad</option>
                 <option value="Malappuram">Malappuram</option>
                 <option value="Palakkad">Palakkad</option>
                 <option value="Thrissur">Thrissur</option>
                 <option value="Ernankulam">Ernankulam</option>
                 <option value="Kottayam">Kottayam</option>
                 <option value="Alappuzha">Alappuzha</option>
-                <option value="Kollam">Kollam</option>
                 <option value="Pathanamthitta">Pathanamthitta</option>
+                <option value="Kollam">Kollam</option>
                 <option value="Trivandrum">Trivandrum</option>
                 </select>
             </div>
@@ -55,18 +55,18 @@
             <div class="custom-select">
                 <select id="work-location" name="Work/Study Location">
                     <option value="" disabled selected hidden>Choose District</option>
-                    <option value="Kannur">Kannur</option>
                     <option value="Kasargode">Kasargode</option>
-                    <option value="Wayanad">Wayanad</option>
+                    <option value="Kannur">Kannur</option>
                     <option value="Kozhikode">Kozhikode</option>
+                    <option value="Wayanad">Wayanad</option>
                     <option value="Malappuram">Malappuram</option>
                     <option value="Palakkad">Palakkad</option>
                     <option value="Thrissur">Thrissur</option>
                     <option value="Ernankulam">Ernankulam</option>
                     <option value="Kottayam">Kottayam</option>
                     <option value="Alappuzha">Alappuzha</option>
-                    <option value="Kollam">Kollam</option>
                     <option value="Pathanamthitta">Pathanamthitta</option>
+                    <option value="Kollam">Kollam</option>                 
                     <option value="Trivandrum">Trivandrum</option>
                 </select>
             </div>
@@ -87,16 +87,23 @@
             <br>
             <h2 for="Whatsapp Number">Whatsapp number</h2>
             <input type="text" id="number" name="Whatsapp Number" placeholder="Whatsapp number" autocomplete="off">
-            <div class="error" id="error-message">
-        
-            </div>
+            <h2 for="Download image"></h2>
+            <a href="images/poster.jpg" download>Download this image</a>
             <br>  
             <br>
-            <h2 for="img">Select image:</h2>
+            <h2 for="img">Select Image:</h2>
+            <label for="img">Upload your screenshot</label>
             <input class="dropzone" type="file" id="img" name="img" accept="image/*"> 
+            <h2 id="wait">Waiting to Upload...</h2>
 
-            <h2 for="img">Image URL</h2>
-            <input type="text" id="url" name="url" placeholder="Upload " autocomplete="off"> 
+            <div class="url">
+                <h2 for="img">Image URL</h2>
+                <input type="text" id="url" name="url" placeholder="Upload " autocomplete="off">
+            </div> 
+            <div class="error" id="error-message">
+
+        
+            </div>
             
            
 

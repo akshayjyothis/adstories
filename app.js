@@ -32,10 +32,11 @@
             var plocation = $("#permanent-location option:selected").text();
             var wlocation = $("#work-location option:selected").text();
             var agegroup = $("#age option:selected").text();
+            var uploadurl = $("#url").val();
             var num= $("#number").val();
-            console.log($.isNumeric(num));
             var text;
-            
+
+
             if(name.length == 0){
                 $("#error-message").css("padding", "13px");
                 text = "Please enter your name";
@@ -85,6 +86,14 @@
                 validate = false;
                 return validate;
             }
+            else if(uploadurl.length == 0) {
+                $("#error-message").css("padding", "13px");
+                text = "Upload not completed";
+                error.html(text);
+                validate = false;
+                return validate;
+            }
+
             else{
                 $(".animation-container").addClass("loader-container");
                 $(".animation").addClass("loader");
