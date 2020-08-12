@@ -99,7 +99,7 @@ label{
     font-family: Axiforma;
     font-style: normal;
     font-weight: 200;
-    font-size: 14px;
+    font-size: 13px;
     text-align: left;
     background-color: white;
     color: grey;
@@ -110,8 +110,26 @@ label{
     border: 1px solid #ccc;
     border-radius: 10px;
 }
-  
-  input[type=submit] {
+.download{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Axiforma;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 13px;
+    color: grey;
+    background-color: white;
+    margin: 8px 0;
+    text-align: left;
+}
+
+input[type=submit] {
     width: 100%;
     background-color: #4CAF50;
     color: white;
@@ -231,8 +249,31 @@ input[type="text"]{
 input[type="file"]{
     display: none;
 }
+ 
+/* font awesome whatsapp  */
 
-
+.botao-wpp {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    background-color: #25d366;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-family: Axiforma;
+    font-weight: 200;
+    width: 100%;
+    padding: 12px 20px;
+}
+  
+  .botao-wpp:hover {
+    background-color: darken(#25d366, 5%);
+  }
+  
+  .botao-wpp:focus {
+    background-color: darken(#25d366, 15%);
+  }
 
 
 /*
