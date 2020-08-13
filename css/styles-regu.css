@@ -249,6 +249,17 @@ input[type="text"]{
 input[type="file"]{
     display: none;
 }
+
+#download-content{
+    font-size: 14px;
+}
+
+#nb{
+    margin-top: 5%;
+    font-size: 8px;
+    text-align: left;
+    color: grey;
+}
  
 /* font awesome whatsapp  */
 
