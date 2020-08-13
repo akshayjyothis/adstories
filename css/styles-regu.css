@@ -265,6 +265,7 @@ input[type="file"]{
     font-weight: 200;
     width: 100%;
     padding: 12px 20px;
+    text-align: left;
 }
   
   .botao-wpp:hover {
