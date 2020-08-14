@@ -41,15 +41,11 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     text-align: center;
     background-color: #f3f3f3;
-    /* background-image: url(../images/bg2\ \(1\).jpg);
-    background-size: 100%;    
-    background-repeat: no-repeat; */
-
     align-items: center;
-    color: white;
+    color: black;
 }
 
 header div{
@@ -70,6 +66,7 @@ header div{
 .section{
     margin: 10%;
     text-align: center;
+    background-color: #f3f3f3;
 
 }
 
@@ -100,6 +97,7 @@ div h2{
 }
 
 .soon{
+    padding-bottom: 10px;
     color: gray;
     font-size: 15px;
 }
@@ -111,10 +109,13 @@ p{
 }
 
 .btn{
+
     text-align: center;
     border-radius: 5px;
+    border-color: rgb(239,80,81);
     background-color:#FAFAFA;
-    padding-top: 14px;
+    cursor: pointer;
+    padding: 5px 28px;
     font-size: 11px;
     cursor: pointer;
     box-shadow: 3px 5px 6px rgba(149,149,149,0.4);
@@ -122,6 +123,7 @@ p{
     font-weight: 600;
     margin: 10px;
     width: 20%;
+
 
 }
 
@@ -143,7 +145,7 @@ p{
         padding-top: 30%;
     }
     .btn{
-        width: 50%;
+        width: 60%;
         text-align: center;    
     }
 
