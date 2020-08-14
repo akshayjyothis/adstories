@@ -87,14 +87,22 @@ header div{
 .section{
     margin: 10%;
     /* margin-top: 5%; */
+<<<<<<< HEAD
     /* margin-left: 43%;
+=======
+/*     margin-left: 43%;
+>>>>>>> 21a57c9215dcd8ed12ac61aae0ec8b7d267ef20d
     margin-right: 30%; */
     text-align: center;
     display: inline-block;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
     width: 35%;
 
+=======
+     width: 35%;
+>>>>>>> 21a57c9215dcd8ed12ac61aae0ec8b7d267ef20d
 }
 
 header{
