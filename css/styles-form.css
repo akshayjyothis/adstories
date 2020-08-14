@@ -87,10 +87,13 @@ header div{
 .section{
     margin: 10%;
     /* margin-top: 5%; */
-    margin-left: 43%;
-    margin-right: 30%;
+/*     margin-left: 43%;
+    margin-right: 30%; */
     text-align: center;
-
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+     width: 35%;
 }
 
 header{
@@ -231,6 +234,8 @@ p{
     }
 
     .section{
+        width: 100%;
+        display: block;
         margin: 1%;
         text-align: center;
         padding-top: 10%;
