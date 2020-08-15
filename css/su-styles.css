@@ -133,6 +133,14 @@ p{
     background: linear-gradient(138deg, rgba(239,80,81,1) 0%, rgba(224,45,116,1) 60%, rgba(156,107,170,1) 100%);
 }
 
+a{
+    color: black;
+    font-family: Axiforma;
+    font-style: italic;
+    font-size: 10px;
+    font-weight: 200;
+}
+
 @media screen and (max-width:1000px){
 
     .logo img{
