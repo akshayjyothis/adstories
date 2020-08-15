@@ -58,13 +58,14 @@ h5{
     font-size: 1em;
     text-align: center;
     color: white;
+
 }
 h2{
     font-family: Axiforma;
     font-style: normal;
     font-weight: 200;
     font-size: 1em;
-    text-align: left;
+    text-align: center;
     color: grey;
 }
 h1{
@@ -136,6 +137,77 @@ table{
     height: 50%;
 }
 
+input[type=text], select {
+    margin-top: 5%;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+form{
+    margin-top: 5%;
+}
+
+
+::placeholder{
+    font-family: Axiforma;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+.dropzone {
+    font-family: Axiforma;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 50%;
+}
+
+label{
+    font-family: Axiforma;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 13px;
+    text-align: left;
+    background-color: white;
+    color: grey;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.button{
+    margin-top: 10%;
+}
+
+.btn{
+    text-align: center;
+    border: 0;
+    border-radius: 5px;
+    background-color:#FAFAFA;
+    padding: 14px 28px;
+    font-size: 11px;
+    cursor: pointer;
+    box-shadow: 3px 5px 6px rgba(149,149,149,0.4);
+    font-family: Axiforma;
+    margin: 10px;
+
+}
+
+.claim{
+    margin-bottom: 0%;
+    background: rgb(239,80,81);
+    background: linear-gradient(138deg, rgba(239,80,81,1) 0%, rgba(224,45,116,1) 60%, rgba(156,107,170,1) 100%);
+}
 .footer{
     padding-top: 50px;
 }
@@ -143,7 +215,7 @@ table{
 .footer img{
     width: 120px;
     height: auto;  
-    /* padding-top: 400px;   */
+    padding-top: 200px;  
 }
 
 .footer-img img{
